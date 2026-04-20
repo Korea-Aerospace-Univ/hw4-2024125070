@@ -12,7 +12,7 @@ int main(void)
     // 문자열 한 글자씩 확인
     for(int i = 0; i < n; i++) {
         
-        char a = getchar();     // 한 글자씩 읽기
+        char a;     // 한 글자씩 읽기
         scanf("%c", &a);
         
         // 영어 소문자일 때
