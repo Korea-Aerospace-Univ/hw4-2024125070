@@ -9,11 +9,11 @@ int main(void)
     scanf("%d", &n);    // 문자 개수 입력
     getchar();  // 개행 제거(한 번)
     
-    // 문자열 한 글자씩 확인
+    // 문자 하나씩 순차적 처리
     for(int i = 0; i < n; i++) {
         
-        char a;     // 한 글자씩 읽기
-        scanf("%c", &a);
+        char a;     // 입력된 한 문자
+        scanf("%c", &a);    // 문자 하나 입력
         
         // 영어 소문자일 때
         if (a >= 'a' && a <= 'z') {
