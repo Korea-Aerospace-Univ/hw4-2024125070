@@ -8,11 +8,11 @@ int main(void)
     
     scanf("%d", &n);    // 문자 개수 입력
     getchar();  // 개행 제거(한 번)
+    char a;     // 입력된 한 문자
     
     // 문자 하나씩 순차적 처리
     for(int i = 0; i < n; i++) {
         
-        char a;     // 입력된 한 문자
         scanf("%c", &a);    // 문자 하나 입력
         
         // 영어 소문자일 때
